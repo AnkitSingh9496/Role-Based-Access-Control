@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+### **Description of the Project**  
+The **Role-Based Access Control (RBAC) UI** is a web-based interface designed to simplify the management of user roles and permissions within an organization. It supports key administrative tasks such as:  
+- Adding new roles with descriptions and permissions.  
+- Editing or deleting existing roles.  
+- Displaying dynamic statistics on the dashboard, such as the total number of roles and active roles.  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project emphasizes an intuitive user experience with a responsive design, styled-components for consistent theming, and mock API integration for role and user management.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### **My Role in Implementing the RBAC UI**  
+As the primary developer of this project, I:  
+1. Designed and implemented the **Add Role** and **Edit Role** functionalities, including form validation.  
+2. Built the **Roles Table** to display and manage roles efficiently.  
+3. Created the **Dashboard** to display real-time statistics about users and roles.  
+4. Used **React.js** and **Styled-components** to build a modern and interactive UI.  
+5. Integrated **mock API** calls to simulate backend interactions.  
+6. Ensured cross-browser compatibility and a responsive design for seamless user experience.  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Link to Repository**  
+- **GitHub Repository**: [RBAC-UI Repository](https://github.com/AnkitSingh9496/Role-Based-Access-Control)  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### **Instructions to Access and Test the Project**  
+1. **Cloning the Repository**:  
+   ```bash
+   git clone https://github.com/AnkitSingh9496/Role-Based-Access-Control
+   cd Role-Based-Access-Control
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install Dependencies**:  
+   Run the following command to install required packages:  
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+3. **Run the Application**:  
+   Start the development server locally:  
+   ```bash
+   npm start
+   ```
+   Access the application at `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Test Mock API Integration**:  
+   The mock API is pre-configured. Add, edit, or delete roles to observe UI updates in real time.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
