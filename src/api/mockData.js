@@ -1,0 +1,48 @@
+export const initialUsers = [
+  { id: 1, username: 'arjun', email: 'arjun@example.com', status: 'active', roleId: 1, role: 'Admin' },
+  { id: 2, username: 'priya', email: 'priya@example.com', status: 'active', roleId: 2, role: 'User' },
+  { id: 3, username: 'rahul', email: 'rahul@example.com', status: 'active', roleId: 2, role: 'User' },
+  { id: 4, username: 'diya', email: 'diya@example.com', status: 'active', roleId: 2, role: 'User' },
+  { id: 5, username: 'vikram', email: 'vikram@example.com', status: 'active', roleId: 1, role: 'Admin' },
+  { id: 6, username: 'neha', email: 'neha@example.com', status: 'active', roleId: 2, role: 'User' },
+  { id: 7, username: 'aditya', email: 'aditya@example.com', status: 'active', roleId: 2, role: 'User' },
+  { id: 8, username: 'sanya', email: 'sanya@example.com', status: 'active', roleId: 1, role: 'Admin' },
+  { id: 9, username: 'raj', email: 'raj@example.com', status: 'active', roleId: 2, role: 'User' },
+  { id: 10, username: 'ayesha', email: 'ayesha@example.com', status: 'active', roleId: 2, role: 'User' },
+  { id: 11, username: 'aman', email: 'aman@example.com', status: 'active', roleId: 1, role: 'Admin' },
+  { id: 12, username: 'tanya', email: 'tanya@example.com', status: 'active', roleId: 2, role: 'User' },
+  { id: 13, username: 'arvind', email: 'arvind@example.com', status: 'active', roleId: 1, role: 'Admin' },
+  { id: 14, username: 'lavanya', email: 'lavanya@example.com', status: 'active', roleId: 2, role: 'User' },
+  { id: 15, username: 'krishna', email: 'krishna@example.com', status: 'active', roleId: 2, role: 'User' },
+  { id: 16, username: 'manisha', email: 'manisha@example.com', status: 'active', roleId: 1, role: 'Admin' },
+  { id: 17, username: 'isha', email: 'isha@example.com', status: 'inactive', roleId: 2, role: 'User' },
+  { id: 18, username: 'kartik', email: 'kartik@example.com', status: 'inactive', roleId: 1, role: 'Admin' },
+  { id: 19, username: 'ananya', email: 'ananya@example.com', status: 'inactive', roleId: 2, role: 'User' },
+  { id: 20, username: 'rhea', email: 'rhea@example.com', status: 'inactive', roleId: 1, role: 'Admin' },
+  { id: 21, username: 'rhea', email: 'rhea@example.com', status: 'inactive', roleId: 1, role: 'Admin' }
+
+];
+
+export const initialRoles = [
+  { id: 1, name: 'Admin', description: 'Full system access', permissions: ['users.read', 'users.write', 'users.delete', 'roles.read', 'roles.write', 'roles.delete'] },
+  { id: 2, name: 'User', description: 'Basic access', permissions: ['users.read', 'roles.read'] },
+  { id: 3, name: 'Manager', description: 'Manage users and roles', permissions: ['users.read', 'users.write', 'roles.read', 'roles.write'] },
+  { id: 4, name: 'Editor', description: 'Edit content', permissions: ['content.read', 'content.write', 'content.delete'] },
+  { id: 5, name: 'Viewer', description: 'View content', permissions: ['content.read'] },
+  { id: 6, name: 'Moderator', description: 'Moderate content', permissions: ['content.read', 'content.delete'] },
+  { id: 7, name: 'Contributor', description: 'Contribute content', permissions: ['content.read', 'content.write'] },
+  { id: 8, name: 'Lead Admin', description: 'Super admin with full access', permissions: ['users.read', 'users.write', 'users.delete', 'roles.read', 'roles.write', 'roles.delete', 'content.read', 'content.write', 'content.delete'] },
+  { id: 9, name: 'Support', description: 'Provide user support', permissions: ['users.read', 'roles.read'] },
+  { id: 10, name: 'Guest', description: 'Limited access for guests', permissions: ['content.read'] },
+  { id: 11, name: 'Developer', description: 'Developer with access to system settings', permissions: ['system.read', 'system.write', 'users.read', 'roles.read'] },
+  { id: 12, name: 'Accountant', description: 'Access to financial data', permissions: ['finance.read', 'finance.write'] },
+  { id: 13, name: 'HR', description: 'Human Resources access', permissions: ['hr.read', 'hr.write'] },
+  { id: 14, name: 'Sales', description: 'Access to sales data', permissions: ['sales.read', 'sales.write'] },
+  { id: 15, name: 'Customer', description: 'Access to customer data', permissions: ['customers.read'] },
+  { id: 16, name: 'Content Admin', description: 'Administer content-related features', permissions: ['content.read', 'content.write', 'content.delete', 'content.manage'] },
+  { id: 17, name: 'Product Manager', description: 'Manage product-related data', permissions: ['product.read', 'product.write', 'product.manage'] },
+  { id: 18, name: 'IT Support', description: 'Support for IT-related issues', permissions: ['system.read', 'system.write', 'users.read'] },
+  { id: 19, name: 'Operations', description: 'Operations management', permissions: ['operations.read', 'operations.write'] },
+  { id: 20, name: 'Training', description: 'Access to training materials', permissions: ['training.read', 'training.write'] },
+  { id: 21, name: 'Marketing', description: 'Manage marketing content and campaigns', permissions: ['marketing.read', 'marketing.write', 'marketing.manage'] }
+];
