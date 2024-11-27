@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AnkitSingh9496.io/Role-Based-Access-Control/static/css/main.b910eeb6.css",
-    "main.js": "/AnkitSingh9496.io/Role-Based-Access-Control/static/js/main.b29ef725.js",
-    "static/js/453.54e48043.chunk.js": "/AnkitSingh9496.io/Role-Based-Access-Control/static/js/453.54e48043.chunk.js",
-    "index.html": "/AnkitSingh9496.io/Role-Based-Access-Control/index.html",
-    "main.b910eeb6.css.map": "/AnkitSingh9496.io/Role-Based-Access-Control/static/css/main.b910eeb6.css.map",
-    "main.b29ef725.js.map": "/AnkitSingh9496.io/Role-Based-Access-Control/static/js/main.b29ef725.js.map",
-    "453.54e48043.chunk.js.map": "/AnkitSingh9496.io/Role-Based-Access-Control/static/js/453.54e48043.chunk.js.map"
+    "main.css": "/Role-Based-Access-Control/static/css/main.b910eeb6.css",
+    "main.js": "/Role-Based-Access-Control/static/js/main.52d33a0e.js",
+    "static/js/453.54e48043.chunk.js": "/Role-Based-Access-Control/static/js/453.54e48043.chunk.js",
+    "index.html": "/Role-Based-Access-Control/index.html",
+    "main.b910eeb6.css.map": "/Role-Based-Access-Control/static/css/main.b910eeb6.css.map",
+    "main.52d33a0e.js.map": "/Role-Based-Access-Control/static/js/main.52d33a0e.js.map",
+    "453.54e48043.chunk.js.map": "/Role-Based-Access-Control/static/js/453.54e48043.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b910eeb6.css",
-    "static/js/main.b29ef725.js"
+    "static/js/main.52d33a0e.js"
   ]
 }
