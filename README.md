@@ -47,3 +47,5 @@ As the primary developer of this project, I:
 4. **Test Mock API Integration**:  
    The mock API is pre-configured. Add, edit, or delete roles to observe UI updates in real time.  
 
+### **Snapshots**  
+
