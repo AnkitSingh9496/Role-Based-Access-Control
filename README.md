@@ -46,10 +46,12 @@ As the primary developer of this project, I:
 
 4. **Test Mock API Integration**:  
    The mock API is pre-configured. Add, edit, or delete roles to observe UI updates in real time.  
+---
 
 ### **Snapshots**  
 ![Dashboard](https://github.com/user-attachments/assets/5f3756bf-8aaa-4cc8-8527-83d988886fd6)
 ![User Management 2](https://github.com/user-attachments/assets/034de93a-a0cf-47ae-b76c-a97d52d5b213)
 ![User Management](https://github.com/user-attachments/assets/355ccc98-cd56-4c73-bb0c-29019647e991)
 ![Role Management](https://github.com/user-attachments/assets/017c35b6-3d04-4ec6-91c2-8d3250e0acc8)
+---
 
